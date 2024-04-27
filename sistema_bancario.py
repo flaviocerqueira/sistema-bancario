@@ -1,9 +1,3 @@
-LIMITE_SAQUE_DIARIO = 2
-LIMITE_VALOR_DO_SAQUE = 500.00
-
-saldo_da_conta = 0.00
-extrato_da_conta = " "
-saques = 0
 
 
 def deposito(valor, saldo_da_conta, extrato_da_conta):
@@ -25,6 +19,13 @@ def extrato(saldo_da_conta, extrato_da_conta):
     print(f'{extrato_da_conta}')
     print(f'Saldo atualizado: {saldo_da_conta}')
 
+
+LIMITE_SAQUE_DIARIO = 2
+LIMITE_VALOR_DO_SAQUE = 500.00
+
+saldo_da_conta = 0.00
+extrato_da_conta = " "
+saques = 0
 
 while True:
     print(
